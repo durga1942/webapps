@@ -1,0 +1,52 @@
+{
+  "details":{
+    "image":"download.png",
+    "name":"saiteja",
+    "phone":"8186040196",
+    "email":"saidurgatejamulla@mail.com",
+    "Adress":"gaapati center nidadavole"
+  },
+  "career":{
+    "info":"A short blurb telling the hiring manager what you want from the company, and in terms of how it will help your own career"
+  },
+  "education":[{
+    "degree":"btech",
+    "institute":"SRKR engineering college",
+    "date":["2016-20,75%"]
+  },
+{
+"degree":"diploma",
+  "institute":"smvm polytechnic",
+  "date":["2014-1,84%"]
+},
+{
+"degree":"ssc",
+  "institute":"noble public",
+  "date":["2008-14,84%"]
+   }
+ ],
+ "keyskills":[
+   {
+     "title":"programming languages:",
+     "info":["c,c++,java,python,ruby"]
+   },
+   {
+     "title":"operating systems:",
+     "info":["windows,linux,mac,ubuntu,dos"]
+   },
+   {
+     "title":"databases:",
+     "info":["oracle,sql,mysql"]
+   }
+ ],
+ "achievements":[
+   {
+     "participation":"sports:",
+     "description":["I won't any certificate"]
+   },
+   {
+     "participation":"events:",
+     "description":["got a certificate"]
+   }
+ ]
+ }
