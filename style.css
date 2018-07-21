@@ -1,0 +1,133 @@
+.parent{
+  border: 2px solid #14E3BC;
+  display: flex;
+  flex-direction: row;
+}
+.child1{
+  background-color: #ddd;
+  border: 3px solid #9CD382;
+  padding: 3%;
+  margin: 3%;
+  width: 30%;
+  text-align: center;
+}
+img{
+  border-radius: 50%;
+  border: 4px solid #15EBBC;
+  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 4px 6px 8px black;
+}
+.child2{
+  background-color: #15EBBC;
+  border: 3px solid #010907;
+  padding: 3%;
+  margin: 3%;
+  width: 40%;
+}
+
+@media only screen and (max-width:480px){
+
+.parent{
+  border: 2px solid #14E3BC;
+  display: flex;
+  flex-direction: row;
+}
+.child1{
+  background-color: #737994;
+  border: 3px solid #EFDA2A;
+  padding: 3%;
+  margin: 3%;
+  width: 90%;
+  text-align: center;
+}
+img{
+  border-radius: 50%;
+  border: 4px solid #EF2A9B;
+  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 4px 6px 8px black;
+}
+.child2{
+  background-color: #737994;
+  border: 3px solid #EF2A9B;
+  padding: 3%;
+  margin: 3%;
+  width: 90%;
+}
+h1,h2,h3,h4,h5,a{
+  word-wrap: break-word;
+}
+}
+@media only screen and (max-width:769px) {
+  .parent{
+    border: 2px solid #AB132A;
+    display: flex;
+    flex-direction:row;
+  }
+  .child1{
+    background-color: #ddd;
+    border: 3px solid #8FB07F;
+    padding: 3%;
+    margin: 3%;
+    width: 90%;
+    text-align: center;
+  }
+  img{
+    border-radius: 50%;
+    border: 4px solid #AAB8B3;
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 4px 6px 8px black;
+  }
+  .child2{
+    background-color: #B5BD0E;
+    border: 3px solid #AAB8B3;
+    padding: 3%;
+    margin: 3%;
+    width: 90%;
+  }
+  h1,h2,h3,h4,h5,a{
+    word-wrap: break-word;
+  }
+}
+@media only screen and (max-width:1024px) {
+  parent{
+    border: 2px solid #7CE774;
+    display: flex;
+    flex-direction:column;
+  }
+  .child1{
+    background-color: #ddd;
+    border: 3px solid #97D5F5;
+    padding: 3%;
+    margin: 3%;
+    width: 90%;
+    text-align: center;
+  }
+  img{
+    border-radius: 50%;
+    border: 4px solid #C1C5C5;
+    width: 70%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 4px 6px 8px black;
+  }
+  .child2{
+    background-color: #97D5F5;
+    border: 3px solid #7CE774;
+    padding: 3%;
+    margin: 3%;
+    width: 90%;
+  }
+  h1,h2,h3,h4,h5,a{
+    word-wrap: break-word;
+  }
+}
